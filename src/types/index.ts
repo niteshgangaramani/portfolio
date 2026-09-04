@@ -123,9 +123,11 @@ export interface ContactData {
   sectionHeading: string;
   subheading: string;
   email: string;
-  phone: string;
+  phone?: string;
   linkedIn: string;
-  officeAddress: string;
+  instagram?: string;
+  youtube?: string;
+  officeAddress?: string;
   googleMapsUrl?: string;
 }
 
