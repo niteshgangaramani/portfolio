@@ -1,0 +1,351 @@
+@import "tailwindcss";
+
+html {
+  scroll-behavior: smooth;
+  scroll-padding-top: 80px;
+}
+
+/* Global color transitions for smooth theme switching */
+body, div, header, nav, section, footer, article, button {
+  transition: background-color 0.25s ease, border-color 0.25s ease, color 0.25s ease;
+}
+
+@theme {
+  --font-serif: 'Cormorant Garamond', 'Playfair Display', Georgia, serif;
+  --font-sans: 'Plus Jakarta Sans', system-ui, -apple-system, sans-serif;
+  
+  --color-brand-bg: #0d0f12;
+  --color-brand-card: #15181e;
+  --color-brand-card-hover: #1c2029;
+  --color-brand-border: #232834;
+  --color-brand-border-glow: #383f52;
+  
+  --color-accent-gold: #c5a880;
+  --color-accent-gold-light: #e4d1b9;
+  --color-accent-gold-dark: #9a7d57;
+  
+  --color-text-primary: #f3f2ee;
+  --color-text-secondary: #9fa4b0;
+  --color-text-muted: #6b7280;
+}
+
+@layer utilities {
+  .font-serif-title {
+    font-family: 'Cormorant Garamond', 'Playfair Display', Georgia, serif;
+  }
+  .font-sans-body {
+    font-family: 'Plus Jakarta Sans', sans-serif;
+  }
+  
+  /* Custom scrollbar */
+  ::-webkit-scrollbar {
+    width: 6px;
+  }
+  ::-webkit-scrollbar-track {
+    background: #0d0f12;
+  }
+  ::-webkit-scrollbar-thumb {
+    background: #232834;
+    border-radius: 3px;
+  }
+  ::-webkit-scrollbar-thumb:hover {
+    background: #c5a880;
+  }
+}
+
+/* Subtle background grain texture simulation */
+.bg-grain {
+  background-image: radial-gradient(rgba(255, 255, 255, 0.03) 1px, transparent 0);
+  background-size: 24px 24px;
+}
+
+/* ==========================================================================
+   CLASSIC IVORY PAPER THEME (NON-DARK EXECUTIVE MODE)
+   ========================================================================== */
+html.light-theme {
+  color-scheme: light;
+}
+
+/* 1. Global Luminous Warm Canvas */
+html.light-theme body,
+html.light-theme .bg-\[\#0d0f12\],
+html.light-theme .bg-\[\#0a0c0f\],
+html.light-theme .bg-\[\#0e1116\],
+html.light-theme .bg-\[\#0f1218\],
+html.light-theme .bg-\[\#101217\] {
+  background-color: #fbf9f4 !important;
+  color: #1f1a16 !important;
+}
+
+/* 2. Alternating Section Backgrounds for Visual Rhythm */
+html.light-theme section:nth-of-type(even) {
+  background-color: #f5efe6 !important;
+}
+
+html.light-theme section:nth-of-type(odd) {
+  background-color: #fbf9f4 !important;
+}
+
+/* 3. Background Grain Texture for Classic Mode - Warm Sand Stipple */
+html.light-theme .bg-grain {
+  background-image: radial-gradient(rgba(140, 95, 40, 0.1) 1.2px, transparent 0) !important;
+  background-size: 28px 28px !important;
+}
+
+/* 4. Primary Elevated Cards & Panels (Crisp Warm Porcelain White) */
+html.light-theme .bg-\[\#14171f\],
+html.light-theme .bg-\[\#15181e\],
+html.light-theme .bg-\[\#13161c\],
+html.light-theme .bg-\[\#13161d\],
+html.light-theme .bg-\[\#181c24\],
+html.light-theme .bg-\[\#171b24\],
+html.light-theme .bg-\[\#10131a\],
+html.light-theme .bg-\[\#11141b\],
+html.light-theme .bg-\[\#141822\],
+html.light-theme .bg-slate-900,
+html.light-theme .bg-slate-800,
+html.light-theme .bg-slate-950 {
+  background-color: #ffffff !important;
+  border-color: #e5dacb !important;
+  box-shadow: 0 4px 20px -2px rgba(60, 45, 30, 0.05), 0 2px 6px -1px rgba(60, 45, 30, 0.03) !important;
+}
+
+/* Card Footers & Bottom Action Banners (Warm Sand Paper Fill) */
+html.light-theme .bg-\[\#101218\],
+html.light-theme .bg-\[\#101217\],
+html.light-theme .bg-\[\#0a0c0f\],
+html.light-theme .bg-\[\#0d0f12\] {
+  background-color: #f7f0e5 !important;
+  border-color: #e5dacb !important;
+}
+
+/* 5. Featured / Highlighted Sub-Cards & Containers (Warm Natural Stone) */
+html.light-theme .bg-\[\#1f242e\],
+html.light-theme .bg-\[\#1f2430\],
+html.light-theme .bg-\[\#1b1f29\],
+html.light-theme .bg-\[\#202532\],
+html.light-theme .bg-\[\#1a231c\],
+html.light-theme .bg-\[\#1e222d\],
+html.light-theme .bg-\[\#2a3040\] {
+  background-color: #f8f3eb !important;
+  border-color: #dfd2c0 !important;
+  box-shadow: 0 4px 16px -3px rgba(60, 45, 30, 0.04) !important;
+}
+
+/* 6. Interactive Pills, Badges & Small Icon Containers */
+html.light-theme .bg-\[\#1a1e27\],
+html.light-theme .bg-\[\#1a1e28\],
+html.light-theme .bg-\[\#161a22\],
+html.light-theme .bg-\[\#161920\],
+html.light-theme .bg-\[\#1c2029\],
+html.light-theme .bg-\[\#1c212c\],
+html.light-theme .bg-\[\#232834\],
+html.light-theme .bg-\[\#282d3c\],
+html.light-theme .bg-\[\#2a2f3d\],
+html.light-theme .bg-\[\#2a303f\],
+html.light-theme .bg-\[\#383f52\],
+html.light-theme .bg-\[\#1e232e\],
+html.light-theme .bg-\[\#2c3344\],
+html.light-theme .bg-\[\#232938\] {
+  background-color: #f2e7d8 !important;
+  border-color: #dfceb7 !important;
+  color: #734114 !important;
+}
+
+/* 7. Floating Navigation, Header Blurs & Mobile Dock */
+html.light-theme header,
+html.light-theme .bg-\[\#12151c\]\/90,
+html.light-theme .bg-\[\#121620\]\/95,
+html.light-theme .bg-\[\#0e1116\] {
+  background-color: rgba(251, 249, 244, 0.95) !important;
+  border-color: #e5d8c8 !important;
+  box-shadow: 0 10px 30px -5px rgba(100, 70, 30, 0.08) !important;
+  color: #1f1a16 !important;
+}
+
+/* Image Badges & Floating Overlays */
+html.light-theme .bg-\[\#0d0f12\]\/90,
+html.light-theme .bg-\[\#0d0f12\]\/80,
+html.light-theme .bg-\[\#0d0f12\]\/70,
+html.light-theme .bg-\[\#0d0f12\]\/50 {
+  background-color: rgba(255, 255, 255, 0.94) !important;
+  border-color: #d8c8b5 !important;
+  color: #874a10 !important;
+  box-shadow: 0 4px 12px rgba(60, 45, 30, 0.08) !important;
+}
+
+/* 8. Modal Backdrop Overlays */
+html.light-theme .bg-black\/95,
+html.light-theme .bg-black\/90,
+html.light-theme .bg-black\/80,
+html.light-theme .bg-black\/60,
+html.light-theme .bg-black\/40 {
+  background-color: rgba(31, 26, 22, 0.6) !important;
+  backdrop-filter: blur(12px) !important;
+}
+
+/* 9. Image Placeholder & Dark Background Gradients */
+html.light-theme .bg-gradient-to-br,
+html.light-theme .from-\[\#181b22\],
+html.light-theme .from-\[\#1a1e27\],
+html.light-theme .from-\[\#1f2430\] {
+  background-image: linear-gradient(to bottom right, #f4e8dc, #e8dbc9) !important;
+}
+
+html.light-theme .from-\[\#0d0f12\]\/80,
+html.light-theme .from-\[\#0d0f12\]\/90 {
+  --tw-gradient-from: rgba(251, 249, 244, 0.85) !important;
+}
+
+/* 10. Typography - Deep Espresso Hierarchy for Comfort & Readability */
+html.light-theme .text-\[\#f3f2ee\],
+html.light-theme .text-\[\#e8e6e1\],
+html.light-theme .text-\[\#f1f0ec\],
+html.light-theme .text-white,
+html.light-theme .text-slate-100,
+html.light-theme .text-slate-200 {
+  color: #1f1a16 !important;
+}
+
+html.light-theme .text-\[\#a2a8b8\],
+html.light-theme .text-\[\#9fa4b0\],
+html.light-theme .text-\[\#8c92a0\],
+html.light-theme .text-\[\#8a91a0\],
+html.light-theme .text-\[\#8c92a0\]\/60,
+html.light-theme .text-\[\#9ca3af\],
+html.light-theme .text-gray-300,
+html.light-theme .text-gray-400,
+html.light-theme .text-slate-300,
+html.light-theme .text-slate-400 {
+  color: #4a433a !important;
+}
+
+html.light-theme .text-\[\#6b7280\],
+html.light-theme .text-slate-500 {
+  color: #6e6458 !important;
+}
+
+/* 11. Refined Executive Cognac Bronze Accent Hierarchy */
+html.light-theme .text-\[\#c5a880\],
+html.light-theme .text-\[\#e4d1b9\],
+html.light-theme .text-\[\#d6ba92\] {
+  color: #9c5716 !important;
+}
+
+html.light-theme .text-\[\#c5a880\]\/40,
+html.light-theme .text-\[\#c5a880\]\/60 {
+  color: rgba(156, 87, 22, 0.7) !important;
+}
+
+/* 12. Primary Action Buttons (Rich Espresso Charcoal on Ivory Canvas) */
+html.light-theme .bg-\[\#c5a880\] {
+  background-color: #231c18 !important;
+  color: #f8f4ed !important;
+  border-color: #382e28 !important;
+  box-shadow: 0 4px 14px rgba(35, 28, 24, 0.2) !important;
+}
+
+html.light-theme .bg-\[\#c5a880\]:hover {
+  background-color: #3b2e26 !important;
+  color: #ffffff !important;
+}
+
+html.light-theme .bg-\[\#c5a880\]\/10,
+html.light-theme .bg-\[\#c5a880\]\/20,
+html.light-theme .bg-\[\#c5a880\]\/5 {
+  background-color: rgba(156, 87, 22, 0.1) !important;
+}
+
+/* 13. Borders & Dividers */
+html.light-theme .border-\[\#232835\],
+html.light-theme .border-\[\#232834\],
+html.light-theme .border-\[\#262b38\],
+html.light-theme .border-\[\#2a303f\],
+html.light-theme .border-\[\#202532\],
+html.light-theme .border-\[\#1e2330\],
+html.light-theme .border-\[\#282d3c\],
+html.light-theme .border-\[\#1e232e\],
+html.light-theme .border-\[\#2d3444\],
+html.light-theme .border-\[\#383f52\],
+html.light-theme .border-\[\#272d3c\],
+html.light-theme .border-\[\#303747\],
+html.light-theme .border-\[\#282f3d\],
+html.light-theme .border-\[\#1f242e\],
+html.light-theme .border-slate-800,
+html.light-theme .border-slate-700,
+html.light-theme .border-white\/10 {
+  border-color: #e5dacb !important;
+}
+
+html.light-theme .divide-\[\#232834\],
+html.light-theme .divide-\[\#202532\],
+html.light-theme .divide-\[\#1e2330\] {
+  border-color: #e5dacb !important;
+}
+
+html.light-theme .border-\[\#c5a880\]\/30,
+html.light-theme .border-\[\#c5a880\]\/40,
+html.light-theme .border-\[\#c5a880\]\/50,
+html.light-theme .border-\[\#c5a880\]\/60 {
+  border-color: rgba(156, 87, 22, 0.35) !important;
+}
+
+/* 14. Interactive Hover States */
+html.light-theme .hover\:bg-\[\#1a1e28\]:hover,
+html.light-theme .hover\:bg-\[\#1a1e27\]:hover,
+html.light-theme .hover\:bg-\[\#1c2029\]:hover,
+html.light-theme .hover\:bg-\[\#161a22\]:hover,
+html.light-theme .hover\:bg-\[\#232834\]:hover,
+html.light-theme .hover\:bg-\[\#282e3b\]:hover,
+html.light-theme .hover\:bg-\[\#181c24\]:hover {
+  background-color: #f3e9db !important;
+  border-color: #9c5716 !important;
+}
+
+/* 15. Form Controls in Classic Theme */
+html.light-theme input,
+html.light-theme textarea,
+html.light-theme select {
+  background-color: #ffffff !important;
+  color: #1f1a16 !important;
+  border-color: #d8cbba !important;
+}
+
+html.light-theme input:focus,
+html.light-theme textarea:focus,
+html.light-theme select:focus {
+  border-color: #9c5716 !important;
+  box-shadow: 0 0 0 3px rgba(156, 87, 22, 0.15) !important;
+}
+
+html.light-theme input::placeholder,
+html.light-theme textarea::placeholder {
+  color: #918475 !important;
+}
+
+/* 16. Scrollbar in Classic Paper Mode */
+html.light-theme ::-webkit-scrollbar-track {
+  background: #f5efe6;
+}
+html.light-theme ::-webkit-scrollbar-thumb {
+  background: #d8cbba;
+}
+html.light-theme ::-webkit-scrollbar-thumb:hover {
+  background: #9c5716;
+}
+
+/* 17. Active Navigation, Mobile Dock & Button Text Fixes */
+html.light-theme .bg-\[\#c5a880\] {
+  background-color: #231c18 !important;
+  color: #ffffff !important;
+  border-color: #382e28 !important;
+}
+
+html.light-theme .bg-\[\#c5a880\] span,
+html.light-theme .bg-\[\#c5a880\] svg,
+html.light-theme .bg-\[\#c5a880\] p,
+html.light-theme .bg-\[\#c5a880\] .text-\[\#0d0f12\] {
+  color: #ffffff !important;
+}
+
+

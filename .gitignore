@@ -1,0 +1,54 @@
+# Dependencies
+node_modules/
+
+# Build / bundle output
+build/
+dist/
+.vite/
+*.local
+*.tsbuildinfo
+
+# Environment
+.env
+.env.*
+
+# Source content assets (raw client files — site uses public/)
+Content/
+
+# Logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# OS
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# IDE / editors
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+.project
+.classpath
+.settings/
+*.sublime-project
+*.sublime-workspace
+
+# Cursor
+.cursor/
+.cursorignore
+
+# Testing / coverage
+coverage/
+.nyc_output/
+
+# Misc
+*.pem
+.cache/
+tmp/
+temp/

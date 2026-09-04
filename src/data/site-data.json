@@ -1,0 +1,866 @@
+{
+  "personal": {
+    "name": "Nitesh M. Gangaramani",
+    "title": "Managing Director, Nyshaa Realty · Executive Director, Sukoon Stays",
+    "shortTitle": "Boutique Real Estate Developer & Entrepreneur",
+    "location": "Mumbai, Maharashtra, India"
+  },
+  "navigation": [
+    {
+      "label": "Home",
+      "href": "#hero"
+    },
+    {
+      "label": "About",
+      "href": "#about"
+    },
+    {
+      "label": "Journey",
+      "href": "#journey"
+    },
+    {
+      "label": "Ventures",
+      "href": "#ventures"
+    },
+    {
+      "label": "Work Portfolio",
+      "href": "#portfolio"
+    },
+    {
+      "label": "Philosophy",
+      "href": "#philosophy"
+    },
+    {
+      "label": "Achievements",
+      "href": "#achievements"
+    },
+    {
+      "label": "Media & Press",
+      "href": "#media"
+    },
+    {
+      "label": "Insights & Videos",
+      "href": "#insights"
+    },
+    {
+      "label": "Gallery",
+      "href": "#gallery"
+    },
+    {
+      "label": "Contact",
+      "href": "#contact"
+    }
+  ],
+  "hero": {
+    "eyebrow": "Managing Director, Nyshaa Realty · Executive Director, Sukoon Stays",
+    "headline": "Build Trust. Create Value. Leave a Legacy.",
+    "subheadline": "Over two decades of experience driving ground-zero real estate businesses into landmark portfolios across Dubai, India, and Mumbai's premium redevelopment landscape.",
+    "primaryCta": {
+      "text": "Explore Nyshaa Realty",
+      "href": "#ventures"
+    },
+    "secondaryCta": {
+      "text": "View Work Portfolio",
+      "href": "#portfolio"
+    },
+    "tertiaryCta": {
+      "text": "Get in touch",
+      "href": "#contact"
+    },
+    "image": "/images/hero/nitesh-hero-portrait.png"
+  },
+  "stats": [
+    {
+      "id": "years",
+      "value": "20+",
+      "label": "Years of Experience",
+      "description": "In real estate, construction, and infrastructure"
+    },
+    {
+      "id": "projects",
+      "value": "52",
+      "label": "Projects Delivered",
+      "description": "Delivered across India"
+    },
+    {
+      "id": "dubai-portfolio",
+      "value": "$2B+",
+      "label": "Dubai Portfolio",
+      "description": "Built and delivered in Dubai"
+    },
+    {
+      "id": "total-value",
+      "value": "₹5,000+ Cr",
+      "label": "Total Project Value",
+      "description": "Total value of projects delivered across India"
+    }
+  ],
+  "about": {
+    "sectionHeading": "Building Things That Outlast the Deal",
+    "eyebrow": "BIOGRAPHY & LEADERSHIP",
+    "quote": "Real estate execution is not merely about constructing structures; it is about taking ownership, reducing risk through meticulous design, and leaving an enduring legacy of trust.",
+    "qualifications": [
+      {
+        "degree": "B.E. in Civil Engineering",
+        "institution": "Mumbai University",
+        "badge": "Engineering Core"
+      },
+      {
+        "degree": "PG Diploma in Construction Management",
+        "institution": "NICMAR",
+        "badge": "Management"
+      },
+      {
+        "degree": "MBA in Construction & Finance",
+        "institution": "Manchester University (UK)",
+        "badge": "International Business"
+      },
+      {
+        "degree": "PMP® Certification",
+        "institution": "Project Management Institute (USA)",
+        "badge": "Professional PMP"
+      }
+    ],
+    "bioParagraphs": [
+      "I am a Boutique Real Estate developer with over two decades of experience spanning construction, infrastructure, redevelopment, and commercial real estate projects. I hold a Bachelor's in Civil Engineering from Mumbai University, a Post Graduate Diploma in Construction Management from NICMAR, an MBA in Construction and Finance from Manchester University (UK), and a PMP certification from the USA.",
+      "My journey began in Mumbai, coming from a middle-class background where my father served as a Senior Banker at the Reserve Bank of India. Since childhood, reading business magazines instilled a deep ambition to continuously aim higher and embrace challenges. This drive took me from managing live residential projects on-ground in India to co-founding and directing one of Dubai's largest real estate development companies.",
+      "Throughout my career, I have been privileged to contribute to landmark developments, managing every stage of the project lifecycle from land acquisition and project finance to customer experience and long-term asset creation."
+    ],
+    "lifestyleParagraph": [
+      "Beyond the boardroom and construction sites, I believe in maintaining a strong work-life balance. I run and sprint 10 kilometers every morning to keep my adrenaline high, and I am an active member of the MCA Club in Bandra where I play badminton and squash.",
+      "A dedicated family man, I am grounded by spiritual practices, starting my day with meditation to ensure focused decision-making."
+    ],
+    "personalHighlights": [
+      {
+        "title": "Morning Discipline",
+        "detail": "10 km daily morning run and sprint routine",
+        "icon": "Activity"
+      },
+      {
+        "title": "Sports & Club",
+        "detail": "Active badminton & squash player at MCA Club, Bandra",
+        "icon": "Trophy"
+      },
+      {
+        "title": "Mindfulness",
+        "detail": "Daily morning meditation practice for clarity & focus",
+        "icon": "Sun"
+      },
+      {
+        "title": "Values",
+        "detail": "Grounded family life and ethics-first leadership",
+        "icon": "Heart"
+      }
+    ],
+    "image": "/images/about/nitesh-portrait.jpeg"
+  },
+  "journey": [
+    {
+      "id": "j-2004",
+      "year": "2004",
+      "location": "Mumbai",
+      "title": "The Foundation",
+      "description": "Graduated with a B.E. in Civil Engineering and immediately started as a Site Engineer for a private real estate developer, successfully navigating the intense pressure of delivering residential flats directly to buyers.",
+      "highlights": [
+        "Hands-on site engineering and execution",
+        "Direct buyer handovers and site management",
+        "Ground-zero exposure to construction realities"
+      ],
+      "image": "/images/journey/journey-2004-foundation.jpeg"
+    },
+    {
+      "id": "j-2005",
+      "year": "2005–2006",
+      "location": "UAE",
+      "title": "The Training Ground",
+      "description": "Relocated to Dubai to serve as Director of a Middle East-headquartered, multidisciplinary real estate and construction conglomerate. Underwent rigorous, hands-on training across contracting, ready-mix concrete, precast, MEP, real estate development, and steel structures, mentored by some of the industry's most experienced professionals within the group.",
+      "highlights": [
+        "Multidisciplinary training in precast & MEP",
+        "Direct mentorship under Experienced Professionals",
+        "Cross-functional construction exposure"
+      ],
+      "image": "/images/journey/journey-2005-uae-training.jpeg"
+    },
+    {
+      "id": "j-2006",
+      "year": "2006–2011",
+      "location": "Dubai",
+      "title": "Scaling to the Top 5",
+      "description": "Co-founded the conglomerate’s real estate development arm, establishing it among Dubai’s top five developers within three years. Built a portfolio of 27 projects valued at over $2 billion, spanning 15 million sq. ft. across residential high-rise and commercial towers in prime Dubai locations. Became the first developer in Dubai to launch and deliver a project ahead of schedule in Jumeirah Village South, pioneering an integrated approach to financing, technology, execution, and delivery.",
+      "highlights": [
+        "Scaled portfolio to 27 projects ($2B+ value)",
+        "Top-5 developer status in Dubai within 3 years",
+        "integrated approach to financing, technology, execution, and delivery"
+      ],
+      "image": "/images/journey/journey-2006-dubai-scaling.jpeg"
+    },
+    {
+      "id": "j-2011",
+      "year": "2011–2020",
+      "location": "India",
+      "title": "Building an Real Estate & Construction  Empire from Scratch In India",
+      "description": "Returned to India to establish and build the company’s operations. Started with a single small contract and scaled the business to 52+ projects, generating over ₹5,000 crore in revenue with a team of 1,200+ professionals. Successfully delivered projects ahead of schedule to 2,500+ customers, consistently ensuring exceptional quality and timely delivery.",
+      "highlights": [
+        "Scaled operations from 1 contract to 52+ projects.",
+        "Generated ₹5,000+ crore in revenue.",
+        "Delivered projects ahead of schedule to 2,500+ customers."
+      ],
+      "image": "/images/journey/journey-2011-india-empire.jpeg"
+    },
+    {
+      "id": "j-2021",
+      "year": "2021-On Going",
+      "location": "Mumbai",
+      "title": "The Lifestyle Shift",
+      "description": "Founded Sukoon Stays, pioneering premium luxury student accommodation and co-living in Juhu and Vile Parle.",
+      "highlights": [
+        "Pioneered premium student co-living in Juhu & Vile Parle",
+        "Technology-enabled modern student living ecosystems",
+        "Expansion into premium co-working spaces"
+      ],
+      "image": "/images/journey/journey-2021-sukoon-stays.jpeg"
+    },
+    {
+      "id": "j-present",
+      "year": "2024-On Going",
+      "location": "Mumbai",
+      "title": "The Legacy Phase",
+      "description": "Leading Nyshaa Realty as Managing Director, driving the company’s growth and strategic direction across boutique redevelopment, commercial, residential, data center, and mixed-use developments in Mumbai. Focused on identifying high-potential opportunities, creating differentiated development strategies, and overseeing projects from acquisition and planning through execution and delivery, with a strong emphasis on quality, innovation, and value creation.",
+      "highlights": [
+        "* Leading Nyshaa Realty’s growth across Mumbai’s real estate landscape.",
+        "* Driving boutique redevelopment, residential, commercial, data center, and mixed-use projects.",
+        "* Overseeing opportunities from acquisition to execution, delivery, and value creation."
+      ],
+      "image": "/images/journey/journey-present-nyshaa.jpeg"
+    }
+  ],
+  "ventures": [
+    {
+      "id": "nyshaa-realty",
+      "company": "Nyshaa Realty",
+      "role": "Managing Director",
+      "focus": "Leading the strategic vision for premium redevelopment, commercial real estate, and mixed-use developments. We specialize in transforming urban spaces through land acquisition, meticulous design management, and fast execution construction techniques.",
+      "vision": "Our goal extends beyond construction; we aim to create destinations that generate long-term value for investors and communities alike.",
+      "websiteUrl": "https://nyshaarealty.com",
+      "tags": [
+        "Urban Redevelopment",
+        "Commercial Real Estate",
+        "Residential",
+        "Mixed-Use",
+        "Fast Execution"
+      ],
+      "image": "/images/ventures/nyshaa-realty.jpeg"
+    },
+    {
+      "id": "sukoon-stays",
+      "company": "Sukoon Stays",
+      "role": "Executive Director & Founder",
+      "focus": "A trusted brand in premium student accommodation and luxury co-living across Juhu, Vile Parle, and Andheri. We are now expanding into next-generation co-working spaces in Andheri East and Wagle Estate, Thane, designed to be entrepreneurial ecosystems for start-ups and innovators.",
+      "vision": "To provide safe, technology-enabled living and workspace solutions that foster innovation, personal growth, and professional success.",
+      "websiteUrl": "https://sukoonstays.com",
+      "tags": [
+        "Student Housing",
+        "Luxury Co-Living",
+        "Co-Working Hubs",
+        "Tech-Enabled Living"
+      ],
+      "image": "/images/ventures/sukoon-stays.jpeg"
+    }
+  ],
+  "projects": [
+    {
+      "id": "jnpt-sez",
+      "title": "Signature Square",
+      "location": "Mumbai, Maharashtra",
+      "category": "Boutique Commercial Redevelopment",
+      "value": "₹570 Crore",
+      "description": "Nyshaa Realty's flagship boutique development.\n",
+      "highlights": [
+        "Flagship boutique commercial space",
+        "Modern architectural design with premium amenities",
+        "Prime location redevelopment in Mumbai"
+      ],
+      "image": "/images/projects/jnpt-sez.jpeg"
+    },
+    {
+      "id": "pune-metro",
+      "title": "Pune Metro",
+      "location": "Pune, Maharashtra",
+      "category": "Transit & Urban Infrastructure",
+      "value": "₹1,200+ Crores",
+      "description": "Executed a massive turnkey contract for all 18 stations across Phase 1 and Phase 2, valued at over ₹1,200 Crores.",
+      "highlights": [
+        "Turnkey execution of 18 stations across Phase 1 & 2",
+        "Precast and heavy structural engineering",
+        "Crucial urban transit infrastructure for Pune city"
+      ],
+      "image": "/images/projects/pune-metro.jpeg"
+    },
+    {
+      "id": "gujarat-bhavan",
+      "title": "NBCC Gujarat Bhavan",
+      "location": "Lutyens Delhi",
+      "category": "Institutional & Civic Landmark",
+      "value": "Civic Landmark",
+      "description": "Delivered the prestigious Lutyens Delhi project, inaugurated by the Prime Minister.",
+      "highlights": [
+        "High-profile diplomatic & state building in Lutyens Delhi",
+        "Inaugurated by the Prime Minister of India",
+        "Premium architectural finish and heritage alignment"
+      ],
+      "image": "/images/projects/gujarat-bhavan.jpeg"
+    },
+    {
+      "id": "le-grand-chateau",
+      "title": "Le Grand Chateau",
+      "location": "Jumeirah Village South, Dubai",
+      "category": "Luxury Residential Development",
+      "value": "$120M+ Value",
+      "description": "Our flagship project in Jumeirah Village South, delivered a full year ahead of schedule.",
+      "highlights": [
+        "Flagship residential community in Dubai",
+        "Delivered a full 12 months ahead of scheduled commitment",
+        "Won CNBC Award for Best Property of the Year"
+      ],
+      "image": "/images/projects/le-grand-chateau.jpeg"
+    },
+    {
+      "id": "signature-square",
+      "title": "Signature Square",
+      "location": "Mumbai, Maharashtra",
+      "category": "Boutique Commercial Redevelopment",
+      "value": "Flagship Boutique",
+      "description": "Nyshaa Realty's flagship boutique development.",
+      "highlights": [
+        "Flagship boutique commercial space",
+        "Modern architectural design with premium amenities",
+        "Prime location redevelopment in Mumbai"
+      ],
+      "image": "/images/projects/signature-square.jpeg"
+    },
+    {
+      "id": "projects-1786552136805",
+      "title": "Project",
+      "location": "City",
+      "category": "Category",
+      "value": "₹0 Cr",
+      "description": "Description",
+      "highlights": []
+    }
+  ],
+  "philosophy": [
+    {
+      "number": 1,
+      "title": "Ethics",
+      "description": "Integrity and honesty in all that we do.",
+      "iconName": "ShieldCheck"
+    },
+    {
+      "number": 2,
+      "title": "Exceeding Expectations",
+      "description": "Delivering beyond the client's brief is our primary resolution.",
+      "iconName": "TrendingUp"
+    },
+    {
+      "number": 3,
+      "title": "Excellence",
+      "description": "Excellence is not an act, but a consistent habit.",
+      "iconName": "Award"
+    },
+    {
+      "number": 4,
+      "title": "Entrepreneurship",
+      "description": "Taking absolute ownership of entrusted projects.",
+      "iconName": "Briefcase"
+    },
+    {
+      "number": 5,
+      "title": "Empowering Employees",
+      "description": "Recognizing that our people are our greatest asset.",
+      "iconName": "Users"
+    },
+    {
+      "number": 6,
+      "title": "Emphasis on Quality",
+      "description": "A deep passion for delivering flawless results.",
+      "iconName": "CheckCircle2"
+    },
+    {
+      "number": 7,
+      "title": "Ensuring Safety",
+      "description": "Maintaining a hazard-free workplace as an absolute priority.",
+      "iconName": "HardHat"
+    },
+    {
+      "number": 8,
+      "title": "Environmental and Social Responsibility",
+      "description": "Remaining sensitive to local environments, communities, and stakeholders.",
+      "iconName": "Leaf"
+    }
+  ],
+  "awards": [
+    {
+      "id": "award-cnbc",
+      "title": "Best Property of the Year",
+      "organization": "CNBC International Property Awards",
+      "year": "Dubai",
+      "description": "Awarded for Le Grand Chateau development in Jumeirah Village South, Dubai.",
+      "image": "/images/awards/award-cnbc-best-property.jpeg"
+    },
+    {
+      "id": "award-young-entrepreneur",
+      "title": "Young Entrepreneur of the Year",
+      "organization": "Estate Awards",
+      "year": "2012",
+      "description": "Conferred in recognition of rapid business scaling and real estate development leadership.",
+      "image": "/images/awards/award-young-entrepreneur.jpeg"
+    },
+    {
+      "id": "award-best-executive",
+      "title": "Best Construction Executive of the Year",
+      "organization": "Estate Awards",
+      "year": "2013",
+      "description": "Honored for outstanding operational management and execution of mega contracts.",
+      "image": "/images/awards/award-best-executive.jpeg"
+    },
+    {
+      "id": "award-indian-leadership",
+      "title": "Indian Leadership Award for Industrial Development",
+      "organization": "All India Achiever's Foundation (AIAF)",
+      "year": "Conferred",
+      "description": "Presented for significant contributions to national infrastructure and industrial scaling.",
+      "image": "/images/awards/award-indian-leadership.jpeg"
+    },
+    {
+      "id": "award-tata-housing",
+      "title": "Best Contracting Firm of the Year",
+      "organization": "Tata Housing",
+      "year": "2013",
+      "description": "Awarded by Tata Housing for exceptional delivery of the La Montana project.",
+      "image": "/images/awards/award-tata-housing.jpeg"
+    },
+    {
+      "id": "award-facade",
+      "title": "Façade Contractor of the Year (Runner-Up)",
+      "organization": "Construction Week India Awards",
+      "year": "2014, 2015, 2016",
+      "description": "Recognized three consecutive years for excellence in structural glazing and building envelope engineering.",
+      "image": "/images/awards/award-facade-contractor.jpeg"
+    },
+    {
+      "id": "awards-1786565615045",
+      "title": "Award",
+      "organization": "Org",
+      "year": "2024",
+      "description": "Description"
+    },
+    {
+      "id": "awards-1786565616388",
+      "title": "Award",
+      "organization": "Org",
+      "year": "2024",
+      "description": "Description"
+    },
+    {
+      "id": "awards-1786565617445",
+      "title": "Award",
+      "organization": "Org",
+      "year": "2024",
+      "description": "Description"
+    }
+  ],
+  "media": [
+    {
+      "id": "media-navabharat-2025",
+      "title": "Navabharat Infrastructure and Real Estate Conclave 2025",
+      "publication": "Business Standard",
+      "date": "2025",
+      "description": "Honored as Young Entrepreneur of the Year for contributions to urban redevelopment and sustainable infrastructure.",
+      "category": "Press Releases",
+      "image": "/images/media/media-navabharat-conclave.jpeg",
+      "url": "https://www.business-standard.com/content/press-releases-ani/building-beyond-boundaries-how-nitesh-gangaramani-s-nyshaa-realty-is-shaping-the-future-of-mumbai-s-real-estate-125101601008_1.html"
+    },
+    {
+      "id": "media-bw-future-design",
+      "title": "BW Businessworld's Future of Design",
+      "publication": "impactonnet",
+      "date": "2025",
+      "description": "Associate Partner, Nyshaa Realty — Discussing modern architectural design, space optimization, and luxury urban aesthetics.",
+      "category": "HAPPENINGS",
+      "image": "/images/media/media-bw-businessworld.jpeg",
+      "url": "https://www.impactonnet.com/happening/bw-businessworld-future-of-design-summit-highlights-sustainable-design-788"
+    },
+    {
+      "id": "media-tribune-ani",
+      "title": " ANI Coverage — Insights into Nyshaa Realty's Vision 2035",
+      "publication": "ANI",
+      "date": "2025",
+      "description": "Detailing our roadmap toward data-centre parks, green-certified commercial developments, and sustainable urban renewal across Mumbai.",
+      "category": "National Press",
+      "image": "/images/media/media-tribune-ani.jpeg",
+      "url": "https://www.aninews.in/news/business/building-beyond-boundaries-how-nitesh-gangaramanis-nyshaa-realty-is-shaping-the-future-of-mumbais-real-estate20251016165510/"
+    },
+    {
+      "id": "media-plast-wall",
+      "title": " Tribune India Coverage — Insights into Nyshaa Realty's Vision 2035",
+      "publication": "Tribune India",
+      "date": "2025",
+      "description": "Covering our shift towards affordable housing technologies, including the Plast Wall Building System for accelerated structural delivery.",
+      "category": "Business",
+      "image": "/images/media/media-construction-tech.jpeg",
+      "url": "https://www.tribuneindia.com/news/business/building-beyond-boundaries-how-nitesh-gangaramanis-nyshaa-realty-is-shaping-the-future-of-mumbais-real-estate/"
+    },
+    {
+      "id": "media-1786555683901",
+      "title": "Building Beyond Boundaries",
+      "publication": "Lokmat Times",
+      "date": "2025",
+      "description": "Nyshaa Realty has rapidly established itself as a brand synonymous with innovation, integrity, and excellence in Mumbai's dynamic real estate sector. Under the insightful leadership of its Managing Director, Nitesh M. Gangaramani",
+      "url": "https://www.tribuneindia.com/news/business/building-beyond-boundaries-how-nitesh-gangaramanis-nyshaa-realty-is-shaping-the-future-of-mumbais-real-estate/",
+      "category": "Press Releases"
+    },
+    {
+      "id": "media-1786555726970",
+      "title": "Glittering Finale: 17th Realty+ Conclave & Excellence Awards West 2025 Wraps-up in Style",
+      "publication": "rprealtyplus",
+      "date": "2024",
+      "description": "insightful panel discussion on Mumbai Metamorphosis: Redevelopment & Future Urbanism",
+      "url": "https://www.rprealtyplus.com/happenings/glittering-finale-17th-realty-conclave-excellence-awards-west-2025-wraps-up-in-style-121383.html",
+      "category": "Press Releases"
+    }
+  ],
+  "socialPosts": [
+    {
+      "id": "post-redevelopment",
+      "title": "Humbled to receive the “Young Entrepreneur of the Year – 2025”",
+      "description": "Here’s to building, believing, and breaking boundaries. Excellence isn’t a destination — it’s a journey.",
+      "platform": "LinkedIn",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7382786035438571520/",
+      "date": "Recent Insight",
+      "tags": [
+        "Redevelopment",
+        "Mumbai Real Estate",
+        "Urban Planning"
+      ],
+      "image": "/images/social/social-redevelopment-insights.jpeg"
+    },
+    {
+      "id": "post-2008-crisis",
+      "title": "Humbled and honoured to receive the Emerging Business Icon of the Year 2025 Award",
+      "description": "This milestone is a reminder to keep pushing boundaries and building with purpose at Nyshaa Realty. ",
+      "platform": "Article",
+      "url": "https://www.instagram.com/p/DOWFYPEkw1_/",
+      "date": "Leadership Series",
+      "tags": [
+        "Crisis Leadership",
+        "Risk Mitigation",
+        "Real Estate"
+      ],
+      "image": "/images/social/social-crisis-leadership.jpeg"
+    }
+  ],
+  "videos": [
+    {
+      "id": "video-signature-square",
+      "title": "17th Realty+ Conclave & Excellence Awards, WEST 2025 – Panel 1 R",
+      "description": "Watch The Replay of the Panel 1 - Mumbai Metamorphosis: Redevelopment & Future Urbanism, At The 17th Realty+ Conclave & Excellence Awards, WEST  2025, Held On 20th August, at Taj Santacruz, Mumbai!",
+      "duration": "51:17",
+      "thumbnail": "/images/videos/video-signature-square-thumb.jpeg",
+      "youtubeUrl": "https://youtu.be/4vRC3y_teE8?si=cy-uwCWnOrvkchLC"
+    },
+    {
+      "id": "video-construction-tech",
+      "title": "The Redevelopment Disruptor: Nitesh Gangaramani, MD, Nyshaa Realty",
+      "description": "Nitesh Gangaramani, MD of Nyshaa Realty, breaks down how smart redevelopment, design-first thinking, and execution speed are reshaping Mumbai living. Quick, clear, and tenant-first—this is how projects move from promise to possession.",
+      "duration": "40:41",
+      "thumbnail": "/images/videos/video-construction-tech-thumb.jpeg",
+      "youtubeUrl": "https://youtu.be/56Hq6QrZcUE?si=IuMs0fJawpKKY8ZT"
+    },
+    {
+      "id": "video-naredco-speaking",
+      "title": "Redefining Real Estate Design | Nitesh Gangaramani, MD Nyshaa Realty at BW Future of Design",
+      "description": "In this exclusive conversation at the BW Future of Design event, Nitesh Gangaramani, Managing Director of Nyshaa Realty, shares his insights on the evolving design language in India’s real estate sector. From blending aesthetics with functionality to driving innovation and disruption, he discusses how Nyshaa Realty is reshaping spaces to meet the aspirations of a new generation of homebuyers and investors.",
+      "youtubeUrl": "https://youtu.be/XSyKFrC_bno?si=eD-yWH090MOSJlwK",
+      "duration": "18:16",
+      "thumbnail": "/images/videos/video-naredco-keynote-thumb.jpeg"
+    }
+  ],
+  "gallery": [
+    {
+      "id": "gal-1",
+      "src": "/images/gallery/gallery-01.jpeg",
+      "caption": "Receiving recognition at a national real estate awards ceremony.",
+      "category": "Awards & Recognition",
+      "aspectRatio": "aspect-[4/3]"
+    },
+    {
+      "id": "gal-2",
+      "src": "/images/gallery/gallery-02.jpeg",
+      "caption": "On-site leadership during an active construction project.",
+      "category": "Site Execution",
+      "aspectRatio": "aspect-[16/9]"
+    },
+    {
+      "id": "gal-3",
+      "src": "/images/gallery/gallery-03.jpeg",
+      "caption": "Architectural review and façade engineering at a flagship development.",
+      "category": "Architectural Renders",
+      "aspectRatio": "aspect-[4/3]"
+    },
+    {
+      "id": "gal-4",
+      "src": "/images/gallery/gallery-04.jpeg",
+      "caption": "Award photographs from Estate Awards and industry conclaves.",
+      "category": "Ceremonies",
+      "aspectRatio": "aspect-[3/2]"
+    },
+    {
+      "id": "gal-5",
+      "src": "/images/gallery/gallery-05.jpeg",
+      "caption": "Keynote address alongside industry leaders and policy makers.",
+      "category": "Keynotes & Industry",
+      "aspectRatio": "aspect-[16/9]"
+    },
+    {
+      "id": "gal-6",
+      "src": "/images/gallery/gallery-06.jpeg",
+      "caption": "Professional portrait at an executive leadership forum.",
+      "category": "Leadership",
+      "aspectRatio": "aspect-[4/3]"
+    },
+    {
+      "id": "gal-7",
+      "src": "/images/gallery/gallery-07.jpeg",
+      "caption": "Project milestone celebration with the core delivery team.",
+      "category": "Team & Culture",
+      "aspectRatio": "aspect-[4/3]"
+    },
+    {
+      "id": "gal-8",
+      "src": "/images/gallery/gallery-08.jpeg",
+      "caption": "Site inspection at a large-scale infrastructure development.",
+      "category": "Site Execution",
+      "aspectRatio": "aspect-[16/9]"
+    },
+    {
+      "id": "gal-9",
+      "src": "/images/gallery/gallery-09.jpeg",
+      "caption": "Industry conclave featuring urban redevelopment insights.",
+      "category": "Keynotes & Industry",
+      "aspectRatio": "aspect-[4/3]"
+    },
+    {
+      "id": "gal-10",
+      "src": "/images/gallery/gallery-10.jpeg",
+      "caption": "Formal recognition for construction excellence and delivery.",
+      "category": "Awards & Recognition",
+      "aspectRatio": "aspect-[3/2]"
+    },
+    {
+      "id": "gal-11",
+      "src": "/images/gallery/gallery-11.jpeg",
+      "caption": "Executive briefing on commercial redevelopment strategy.",
+      "category": "Leadership",
+      "aspectRatio": "aspect-[16/9]"
+    },
+    {
+      "id": "gal-12",
+      "src": "/images/gallery/gallery-12.jpeg",
+      "caption": "Ground-breaking moment at a premium Mumbai redevelopment site.",
+      "category": "Site Execution",
+      "aspectRatio": "aspect-[4/3]"
+    },
+    {
+      "id": "gal-13",
+      "src": "/images/gallery/gallery-13.jpeg",
+      "caption": "Panel discussion on sustainable urban infrastructure.",
+      "category": "Keynotes & Industry",
+      "aspectRatio": "aspect-[4/3]"
+    },
+    {
+      "id": "gal-14",
+      "src": "/images/gallery/gallery-14.jpeg",
+      "caption": "Celebrating project handover with stakeholders and partners.",
+      "category": "Ceremonies",
+      "aspectRatio": "aspect-[3/2]"
+    },
+    {
+      "id": "gal-15",
+      "src": "/images/gallery/gallery-15.jpeg",
+      "caption": "Behind-the-scenes at a boutique commercial development.",
+      "category": "Architectural Renders",
+      "aspectRatio": "aspect-[16/9]"
+    },
+    {
+      "id": "gallery-1786562237217",
+      "caption": "Caption",
+      "category": "General",
+      "aspectRatio": "aspect-[16/9]"
+    },
+    {
+      "id": "gallery-1786564975038",
+      "caption": "Caption",
+      "category": "General",
+      "aspectRatio": "aspect-[4/3]"
+    },
+    {
+      "id": "gallery-1786564976965",
+      "caption": "Caption",
+      "category": "General",
+      "aspectRatio": "aspect-[4/3]"
+    },
+    {
+      "id": "gallery-1786564977644",
+      "caption": "Caption",
+      "category": "General",
+      "aspectRatio": "aspect-[4/3]"
+    },
+    {
+      "id": "gallery-1786564978202",
+      "caption": "Caption",
+      "category": "General",
+      "aspectRatio": "aspect-[4/3]"
+    },
+    {
+      "id": "gallery-1786564978783",
+      "caption": "Caption",
+      "category": "General",
+      "aspectRatio": "aspect-[4/3]"
+    },
+    {
+      "id": "gallery-1786564979334",
+      "caption": "Caption",
+      "category": "General",
+      "aspectRatio": "aspect-[4/3]"
+    },
+    {
+      "id": "gallery-1786564979934",
+      "caption": "Caption",
+      "category": "General",
+      "aspectRatio": "aspect-[4/3]"
+    },
+    {
+      "id": "gallery-1786564980434",
+      "caption": "Caption",
+      "category": "General",
+      "aspectRatio": "aspect-[4/3]"
+    },
+    {
+      "id": "gallery-1786564980967",
+      "caption": "Caption",
+      "category": "General",
+      "aspectRatio": "aspect-[4/3]"
+    },
+    {
+      "id": "gallery-1786564981473",
+      "caption": "Caption",
+      "category": "General",
+      "aspectRatio": "aspect-[4/3]"
+    },
+    {
+      "id": "gallery-1786564982035",
+      "caption": "Caption",
+      "category": "General",
+      "aspectRatio": "aspect-[4/3]"
+    },
+    {
+      "id": "gallery-1786564982800",
+      "caption": "Caption",
+      "category": "General",
+      "aspectRatio": "aspect-[4/3]"
+    },
+    {
+      "id": "gallery-1786564989243",
+      "caption": "Caption",
+      "category": "General",
+      "aspectRatio": "aspect-[4/3]"
+    }
+  ],
+  "csr": [
+    {
+      "id": "csr-1",
+      "src": "",
+      "caption": "Add CSR caption",
+      "category": "CSR",
+      "aspectRatio": "aspect-[4/3]"
+    }
+  ],
+  "contact": {
+    "eyebrow": "DIRECT ENGAGEMENT",
+    "sectionHeading": "Let's Build Something That Lasts",
+    "subheading": "I am always open to conversations with developers, investors, architects, consultants, and professionals who share a passion for transforming cities and creating meaningful impact.",
+    "email": "Nitesh.g@nyshaarealty.com",
+    "phone": "+91 9833888888",
+    "linkedIn": "https://tinyurl.com/m7wk3buz",
+    "officeAddress": "B/1, Flat No. 191, Sneha Dhara CHSL, Vile Parle West, Mumbai – 400056",
+    "googleMapsUrl": "https://maps.google.com/?q=Sneha+Dhara+CHSL+Vile+Parle+West+Mumbai"
+  },
+  "settings": {
+    "accentColor": "#c5a880",
+    "backgroundColor": "#0d0f12",
+    "surfaceColor": "#14171f",
+    "textColor": "#f3f2ee",
+    "hiddenSections": [],
+    "sectionOrder": [
+      "hero",
+      "stats",
+      "about",
+      "journey",
+      "ventures",
+      "portfolio",
+      "philosophy",
+      "achievements",
+      "media",
+      "insights",
+      "gallery",
+      "contact"
+    ],
+    "headings": {
+      "journey": {
+        "eyebrow": "CAREER EVOLUTION",
+        "title": "From Global Construction to Indian Real Estate",
+        "subtitle": "From building a foundation in India to spending over 12 years delivering landmark developments in Dubai, and then bringing that global experience back to India to build and scale a diversified real estate and construction business.\n\nDubai gave me global scale. India gave me the opportunity to create lasting value.\nFrom Dubai’s Landmark Projects to India’s Next Generation of Real Estate"
+      },
+      "ventures": {
+        "eyebrow": "CURRENT VENTURES",
+        "title": "Building Across Real Estate & Hospitality",
+        "subtitle": "Leading Nyshaa Realty and Sukoon Stays with a focus on premium redevelopment and boutique hospitality."
+      },
+      "portfolio": {
+        "eyebrow": "WORK PORTFOLIO",
+        "title": "Landmark Projects & Deliverables",
+        "subtitle": "A curated selection of high-value developments across Mumbai, India, and international markets."
+      },
+      "philosophy": {
+        "eyebrow": "LEADERSHIP PHILOSOPHY",
+        "title": "The 8 Es of Business",
+        "subtitle": "Core principles that guide decision-making, team culture, and long-term value creation."
+      },
+      "achievements": {
+        "eyebrow": "RECOGNITION",
+        "title": "Achievements & Honors",
+        "subtitle": "Industry awards and executive recognition earned across two decades of leadership."
+      },
+      "media": {
+        "eyebrow": "MEDIA & PRESS",
+        "title": "Featured Coverage",
+        "subtitle": "Press features, interviews, and published articles highlighting leadership and project milestones."
+      },
+      "insights": {
+        "eyebrow": "INSIGHTS & MEDIA",
+        "title": "Social Posts & Videos",
+        "subtitle": "Thought leadership, industry commentary, and video features from across platforms."
+      },
+      "gallery": {
+        "eyebrow": "GALLERY",
+        "title": "Visual Portfolio",
+        "subtitle": "Moments from projects, events & leadership journeys."
+      },
+      "csr": {
+        "eyebrow": "CSR",
+        "title": "Corporate Social Responsibility",
+        "subtitle": "Community initiatives, social impact, and giving back."
+      }
+    }
+  }
+}
