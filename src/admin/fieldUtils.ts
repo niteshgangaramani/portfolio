@@ -77,7 +77,7 @@ export function inferFieldKind(path: string, value: unknown): FieldKind {
   if (key === 'aspectRatio') return 'aspectRatio';
   if (key === 'image' || key === 'src' || key === 'thumbnail' || key === 'logo') return 'image';
   if (key === 'videoUrl') return 'video';
-  if (key === 'url' || key === 'href' || key === 'websiteUrl' || key === 'youtubeUrl' || key === 'googleMapsUrl' || key === 'linkedIn' || key === 'instagram' || key === 'youtube') return 'url';
+  if (key === 'url' || key === 'href' || key === 'websiteUrl' || key === 'youtubeUrl' || key === 'googleMapsUrl' || key === 'linkedIn' || key === 'instagram' || key === 'youtube' || key === 'facebook') return 'url';
   if (key === 'platform') return 'platform';
   if (key === 'tags') return 'tags';
   if (key === 'highlights' || key === 'bioParagraphs' || key === 'lifestyleParagraph') return 'lines';
@@ -89,6 +89,7 @@ export function inferFieldKind(path: string, value: unknown): FieldKind {
 
 /** Image / media keys that must appear in the editor even if missing on the item. */
 const ENSURE_FIELDS: Record<string, string[]> = {
+  qualifications: ['degree', 'institution', 'badge'],
   journey: ['image'],
   ventures: ['image', 'logo'],
   projects: ['image', 'link'],
