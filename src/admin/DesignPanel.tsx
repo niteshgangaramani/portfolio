@@ -18,10 +18,15 @@ const ADD_TEMPLATES: { key: string; label: string; template: Record<string, unkn
   { key: 'videos', label: 'Video', template: { id: 'video', title: 'Title', description: 'Description', videoUrl: '', youtubeUrl: '', duration: '0:00', thumbnail: '' } },
   { key: 'gallery', label: 'Gallery image', template: { id: 'gallery', caption: 'Caption', category: 'General', aspectRatio: 'aspect-[4/3]', src: '' } },
   { key: 'csr', label: 'CSR image', template: { id: 'csr', caption: 'CSR caption', category: 'CSR', aspectRatio: 'aspect-[4/3]', src: '' } },
+  {
+    key: 'about.qualifications',
+    label: 'Credential',
+    template: { degree: 'New Degree / Certification', institution: 'Institution', badge: 'Category' },
+  },
 ];
 
 function itemLabel(item: Record<string, unknown>, fallbackIndex: number): string {
-  const candidates = [item.title, item.company, item.caption, item.label, item.publication, item.year];
+  const candidates = [item.title, item.degree, item.company, item.caption, item.label, item.publication, item.year];
   for (const c of candidates) {
     if (typeof c === 'string' && c.trim()) return c.trim();
   }

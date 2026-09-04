@@ -89,6 +89,7 @@ export function inferFieldKind(path: string, value: unknown): FieldKind {
 
 /** Image / media keys that must appear in the editor even if missing on the item. */
 const ENSURE_FIELDS: Record<string, string[]> = {
+  qualifications: ['degree', 'institution', 'badge'],
   journey: ['image'],
   ventures: ['image', 'logo'],
   projects: ['image', 'link'],

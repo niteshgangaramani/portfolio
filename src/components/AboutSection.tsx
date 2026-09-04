@@ -2,16 +2,26 @@ import React, { useState } from 'react';
 import { SectionHeading } from './SectionHeading';
 import { ImagePlaceholder } from './ImagePlaceholder';
 import { AboutData } from '../types';
-import { GraduationCap, Quote, ChevronDown, ChevronUp } from 'lucide-react';
+import { GraduationCap, Quote, ChevronDown, ChevronUp, Plus, Trash2 } from 'lucide-react';
 import { motion } from 'motion/react';
 import { EditableText, EditableBlock } from '../admin/Editable';
+import { useIsEditMode } from '../admin/EditModeGuard';
+import { useAdminOptional } from '../admin/AdminContext';
 
 interface AboutSectionProps {
   about: AboutData;
 }
 
+const CREDENTIAL_TEMPLATE = {
+  degree: 'New Degree / Certification',
+  institution: 'Institution',
+  badge: 'Category',
+};
+
 export const AboutSection: React.FC<AboutSectionProps> = ({ about }) => {
   const [isBioExpanded, setIsBioExpanded] = useState(false);
+  const isEditMode = useIsEditMode();
+  const admin = useAdminOptional();
 
   return (
     <section id="about" className="py-16 sm:py-28 bg-[#0d0f12] relative overflow-hidden">
@@ -65,31 +75,74 @@ export const AboutSection: React.FC<AboutSectionProps> = ({ about }) => {
 
             {/* Qualifications Card */}
             <div className="bg-[#14171f] p-5 sm:p-6 rounded-sm border border-[#232835] shadow-lg">
-              <div className="flex items-center gap-2 mb-4 pb-3 border-b border-[#232835]">
-                <GraduationCap className="w-5 h-5 text-[#c5a880]" />
-                <h3 className="text-xs sm:text-sm font-mono uppercase tracking-wider text-[#f3f2ee] font-semibold">
-                  Academic Credentials
-                </h3>
+              <div className="flex items-center justify-between gap-2 mb-4 pb-3 border-b border-[#232835]">
+                <div className="flex items-center gap-2">
+                  <GraduationCap className="w-5 h-5 text-[#c5a880]" />
+                  <h3 className="text-xs sm:text-sm font-mono uppercase tracking-wider text-[#f3f2ee] font-semibold">
+                    Academic Credentials
+                  </h3>
+                </div>
+                {isEditMode && admin && (
+                  <button
+                    type="button"
+                    data-edit-allow
+                    onClick={(e) => {
+                      e.stopPropagation();
+                      admin.addArrayItem('about.qualifications', CREDENTIAL_TEMPLATE);
+                      const nextIndex = about.qualifications.length;
+                      admin.selectPath(`about.qualifications.${nextIndex}`);
+                      admin.setPanelTab('edit');
+                    }}
+                    className="inline-flex items-center gap-1 px-2 py-1 rounded-sm border border-[var(--admin-accent,#c5a880)]/40 text-[10px] font-mono text-[var(--admin-accent,#c5a880)] hover:bg-[var(--admin-accent,#c5a880)]/10"
+                    title="Add credential"
+                  >
+                    <Plus className="w-3 h-3" />
+                    Add
+                  </button>
+                )}
               </div>
               <div className="space-y-3.5">
+                {about.qualifications.length === 0 && (
+                  <p className="text-[11px] font-mono text-[#7a8190]">
+                    {isEditMode ? 'No credentials yet — click Add.' : 'No credentials listed.'}
+                  </p>
+                )}
                 {about.qualifications.map((qual, idx) => (
-                  <EditableBlock key={idx} path={`about.qualifications.${idx}`} label={qual.degree}>
-                    <div className="flex flex-col">
-                      <div className="flex items-center justify-between">
-                        <span className="text-xs font-sans-body font-semibold text-[#f3f2ee]">
-                          <EditableText path={`about.qualifications.${idx}.degree`}>{qual.degree}</EditableText>
-                        </span>
-                        {qual.badge && (
-                          <span className="text-[10px] font-mono text-[#c5a880] px-2 py-0.5 bg-[#c5a880]/10 border border-[#c5a880]/20 rounded-xs font-semibold">
-                            <EditableText path={`about.qualifications.${idx}.badge`}>{qual.badge}</EditableText>
+                  <div key={`${qual.degree}-${idx}`} className="relative group/cred">
+                    <EditableBlock path={`about.qualifications.${idx}`} label={qual.degree}>
+                      <div className="flex flex-col pr-8">
+                        <div className="flex items-start justify-between gap-2">
+                          <span className="text-xs font-sans-body font-semibold text-[#f3f2ee]">
+                            <EditableText path={`about.qualifications.${idx}.degree`}>{qual.degree}</EditableText>
                           </span>
-                        )}
+                          {(qual.badge || isEditMode) && (
+                            <span className="text-[10px] font-mono text-[#c5a880] px-2 py-0.5 bg-[#c5a880]/10 border border-[#c5a880]/20 rounded-xs font-semibold shrink-0">
+                              <EditableText path={`about.qualifications.${idx}.badge`}>
+                                {qual.badge || (isEditMode ? 'Badge' : '')}
+                              </EditableText>
+                            </span>
+                          )}
+                        </div>
+                        <span className="text-xs text-[#8c92a0]">
+                          <EditableText path={`about.qualifications.${idx}.institution`}>{qual.institution}</EditableText>
+                        </span>
                       </div>
-                      <span className="text-xs text-[#8c92a0]">
-                        <EditableText path={`about.qualifications.${idx}.institution`}>{qual.institution}</EditableText>
-                      </span>
-                    </div>
-                  </EditableBlock>
+                    </EditableBlock>
+                    {isEditMode && admin && (
+                      <button
+                        type="button"
+                        data-edit-allow
+                        onClick={(e) => {
+                          e.stopPropagation();
+                          admin.removeArrayItem('about.qualifications', idx);
+                        }}
+                        className="absolute top-0 right-0 p-1.5 rounded-sm border border-red-900/50 text-red-400 hover:bg-red-950/40 opacity-100"
+                        title="Remove credential"
+                      >
+                        <Trash2 className="w-3.5 h-3.5" />
+                      </button>
+                    )}
+                  </div>
                 ))}
               </div>
             </div>
