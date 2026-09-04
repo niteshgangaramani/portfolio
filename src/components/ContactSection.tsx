@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import { SectionHeading } from './SectionHeading';
 import { ContactData } from '../types';
-import { Mail, Linkedin, Instagram, Youtube, Send, CheckCircle2, ArrowUpRight, ChevronUp } from 'lucide-react';
+import { Mail, Linkedin, Instagram, Youtube, Facebook, Send, CheckCircle2, ArrowUpRight, ChevronUp } from 'lucide-react';
 import { Button } from './Button';
 import { motion } from 'motion/react';
 import { EditableText, EditableAnchor, EditableLink } from '../admin/Editable';
@@ -107,6 +107,17 @@ export const ContactSection: React.FC<ContactSectionProps> = ({ contact }) => {
                     <ArrowUpRight className="w-2.5 h-2.5" />
                   </EditableLink>
                 </EditableAnchor>
+
+                <EditableAnchor path="contact.facebook" href={contact.facebook || '#'} external className="flex flex-col items-center px-1 group cursor-pointer">
+                  <div className="w-9 h-9 rounded-full bg-[#1c212c] border border-[#1877F2]/40 text-[#1877F2] flex items-center justify-center mb-1.5 group-hover:bg-[#1877F2] group-hover:text-white transition-colors">
+                    <Facebook className="w-4 h-4" />
+                  </div>
+                  <span className="text-[9px] font-mono text-[#8c92a0] uppercase tracking-wider block">Facebook</span>
+                  <EditableLink path="contact.facebook" href={contact.facebook || '#'} className="text-[11px] font-sans-body font-semibold text-[#c5a880] group-hover:underline inline-flex items-center gap-0.5 leading-tight mt-0.5">
+                    <span>Follow</span>
+                    <ArrowUpRight className="w-2.5 h-2.5" />
+                  </EditableLink>
+                </EditableAnchor>
               </div>
             </div>
 
@@ -179,6 +190,23 @@ export const ContactSection: React.FC<ContactSectionProps> = ({ contact }) => {
                     </div>
                     <EditableLink path="contact.youtube" href={contact.youtube || '#'} className="text-xs sm:text-sm font-sans-body font-semibold text-[#f3f2ee] group-hover:text-[#c5a880] transition-colors truncate block">
                       {contact.youtube || 'Add YouTube URL'}
+                    </EditableLink>
+                  </div>
+                </EditableAnchor>
+
+                <EditableAnchor path="contact.facebook" href={contact.facebook || '#'} external className="flex items-center gap-3 sm:gap-4 group p-2 sm:p-3 rounded-xs hover:bg-[#1a1e28] transition-colors">
+                  <div className="p-2 sm:p-3 bg-[#1c212c] rounded-sm text-[#1877F2] border border-[#1877F2]/30 group-hover:border-[#1877F2] shrink-0">
+                    <Facebook className="w-4 h-4 sm:w-5 sm:h-5" />
+                  </div>
+                  <div className="min-w-0 flex-1">
+                    <div className="flex items-center justify-between">
+                      <span className="text-[9px] sm:text-[10px] font-mono uppercase tracking-wider text-[#8c92a0] block">
+                        Facebook
+                      </span>
+                      <ArrowUpRight className="w-3.5 h-3.5 text-[#c5a880] shrink-0" />
+                    </div>
+                    <EditableLink path="contact.facebook" href={contact.facebook || '#'} className="text-xs sm:text-sm font-sans-body font-semibold text-[#f3f2ee] group-hover:text-[#c5a880] transition-colors truncate block">
+                      {contact.facebook || 'Add Facebook URL'}
                     </EditableLink>
                   </div>
                 </EditableAnchor>

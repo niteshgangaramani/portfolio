@@ -127,6 +127,7 @@ export interface ContactData {
   linkedIn: string;
   instagram?: string;
   youtube?: string;
+  facebook?: string;
   officeAddress?: string;
   googleMapsUrl?: string;
 }
